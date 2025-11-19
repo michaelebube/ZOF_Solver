@@ -1,6 +1,6 @@
-Name: MBA EMMANUEL
-Matric Number: 22CG031885`
-Live URL: [Your deployed application URL - will be available after deployment]
+Name: EBUBE MICHAEL IFEANYICHUKWU
+Matric Number: 22CG031850
+Live URL: 
 GitHub Repository: [Your GitHub repository link]
 
 Deployment Instructions:
@@ -20,32 +20,3 @@ Option 1: Deploy to Render.com
 6. Wait for deployment to complete
 7. Copy the URL provided (e.g., https://zof-solver.onrender.com)
 
-Option 2: Deploy to PythonAnywhere
------------------------------------
-1. Create account at https://www.pythonanywhere.com
-2. Go to "Web" tab → "Add a new web app"
-3. Choose "Flask" as framework
-4. Upload your files via "Files" tab
-5. Install requirements: pip install -r requirements.txt
-6. Configure WSGI file to point to your app.py
-7. Reload your web app
-8. Your app will be at: https://yourusername.pythonanywhere.com
-
-Option 3: Deploy to Streamlit Cloud (if using Streamlit)
---------------------------------------------------------
-1. Create account at https://streamlit.io/cloud
-2. Click "New app"
-3. Connect GitHub repository
-4. Select branch and main file
-5. Click "Deploy"
-
-Option 4: Deploy to Vercel
----------------------------
-1. Install Vercel CLI: npm i -g vercel
-2. Run: vercel
-3. Follow prompts to deploy
-4. Or connect GitHub repo at https://vercel.com
-
-Additional Requirements for Render.com:
----------------------------------------
-Add gunicorn to requirements.txt and create Procfile
